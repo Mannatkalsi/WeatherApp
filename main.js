@@ -33,8 +33,17 @@ const api = {
     let weather_el = document.querySelector('.current .weather');
     weather_el.innerText = weather.weather[0].main;
   
-    let hilow = document.querySelector('.hi-low');
-    hilow.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
+    let hilow = document.querySelector(' .hi-low');
+    hilow.innerText = `L: ${Math.round(weather.main.temp_min)}°c  H: ${Math.round(weather.main.temp_max)}°c`;
+
+    let pressure = document.querySelector('.current .pressure');
+    pressure.innerHTML = `Pressure Level: ${weather.main.pressure}`;
+
+    let humidity = document.querySelector('.current .humidity');
+    humidity.innerHTML = `Relative Humidity: ${weather.main.humidity} %`;
+    
+    let windspeed = document.querySelector('.current .wind-speed');
+    windspeed.innerHTML = `Wind Speed: ${weather.wind.speed} m/s`;
   }
   
   function dateBuilder (d) {
