@@ -1,7 +1,6 @@
 # WeatherApp using HTML,CSS & JavaScript
 
 
-
-
-![Screen Shot 2021-01-20 at 4 35 31 pm](https://user-images.githubusercontent.com/42558111/105131945-139ba700-5b3e-11eb-8921-cdb2fe279637.png)
+![Screen Shot 2021-01-21 at 2 01 10 pm](https://user-images.githubusercontent.com/42558111/105274402-38048b80-5bf1-11eb-88d8-c56a7e14b147.png)
+![Screen Shot 2021-01-21 at 2 01 34 pm](https://user-images.githubusercontent.com/42558111/105274407-3aff7c00-5bf1-11eb-9478-b879a146113c.png)
 
